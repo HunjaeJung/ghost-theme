@@ -192,7 +192,16 @@ hr {
 	background: #f4f4f4;
 }
 
-span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
+/*span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }*/
+p code {
+    padding: .2rem .3rem .1rem;
+    border: 1px solid #d8e0e4;
+    border-radius: 2px;
+    color: #c25;
+    white-space: pre-wrap;
+    font-size: .8em;
+    line-height: 1em;
+}
 
 pre	{ font-family:Menlo, Monaco, Courier; white-space:pre-wrap; border: 1px solid #ddd; padding:20px;
 background-color:#fdfdfd; font-size:14px;  overflow:auto; border-radius: 3px;

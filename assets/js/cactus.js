@@ -1,6 +1,7 @@
 /*jslint browser:true*/
 /*global $, FastClick*/
 
+/*
 $(function () {
 
     'use strict';
@@ -25,3 +26,6 @@ $(function () {
     });
 
 });
+*/
+
+FastClick.attach(document.body);
