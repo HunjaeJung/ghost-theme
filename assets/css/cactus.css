@@ -64,7 +64,7 @@ a#documentation {
 
 #wrapper {
 	padding:100px 40px 100px 40px;
-	max-width:600px;
+	max-width:720px;
 	margin:0 auto;
 }
 
@@ -103,7 +103,8 @@ a,
 }
 
 ul 	{ margin:0; padding:0; }
-li	{ list-style-type:circle; list-style-position:inside; }
+li	{ list-style-position:outside; margin-left:20px; }
+ol { padding-left: 4px; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
@@ -159,9 +160,9 @@ h2 {
 
 h1, h2, h3 { color:#333; }
 
-h1 { font-size:20px; font-weight: 500; }
-h2 { font-size:16px;  font-weight:bold; }
-h3 { font-size:15px; font-weight: bold; }
+h1 { font-size:26px; font-weight: 500; }
+h2 { font-size:22px;  font-weight:bold; }
+h3 { font-size:18px; font-weight: bold; }
 
 h6 {
 	font-size: 13px;
@@ -363,7 +364,7 @@ Post Page
 	font-size:13px;
 	font-weight:bold;
 	line-height:1.4;
-	margin-top:80px;
+	/*margin-top:80px;*/
 	color:#444;
 }
 
@@ -531,7 +532,7 @@ Author
 footer { margin-top: 60px; }
 
 #post-list, #archive-list { margin-top: 0; }
-#post-meta { margin-top: 60px; }
+/*#post-meta { margin-top: 60px; }*/
 
 #title { font-size: 17px; }
 #post-list .dates { display: none; }
@@ -540,4 +541,16 @@ footer { margin-top: 60px; }
 
 h1 { font-size: 26px; }
 .post h2.headline { font-size: 20px; }
+}
+
+
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+    min-width: 100% !important;
+    width: 100% !important;
+}
+
+#post-body {
+  margin-bottom: 35px; 
 }

@@ -14,7 +14,19 @@
             {{content}}
         </section>
 
-        {{!> comments}}
+				<!--
+				 <div
+					 class="fb-comments"
+					 data-href="http://hunjae.com{{url}}"
+					 data-colorscheme="light"
+					 data-numposts="10" 
+					 data-width="100%" 
+					 data-colorscheme="light"
+					 >
+				 </div>
+				 -->
+
+        {{> comments}}
 
         <footer id="post-meta" class="clearfix">
             <div><span>Posted on </span> <time class="dates" datetime="{{date format='YYYY-MM-DD'}}">{{date format='MMM D, YYYY'}}</time></div>
